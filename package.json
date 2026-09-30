@@ -1,0 +1,23 @@
+{
+  "name": "verity-due-diligence-simulator",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A local-first, multi-agent due diligence and contract redlining simulator with a human review workflow.",
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "dev": "node --watch server.mjs",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "busboy": "1.6.0",
+    "mammoth": "1.13.0",
+    "pdf-parse": "1.1.1"
+  },
+  "devDependencies": {
+    "jsdom": "26.1.0"
+  }
+}
